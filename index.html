@@ -4,13 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Getting Started with Bootstrap</title>
+    <title>Columnas Alineacion Vertical</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .row{
+            background-color: #e8e8e8;
+            height: 150px;
+            margin-top: 20px;
+        
+        }
+        .col{
+            background-color: f2f2f2;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #4d5031;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>Hola Mundo</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque atque quaerat inventore accusantium maxime voluptatum deleniti quo. Neque illum exercitationem dicta numquam minima aliquam commodi, nihil earum, hic in voluptate.</p>
+        <div class="row align-items-start">
+            <div class="col">Columna #1</div>
+            <div class="col">Columna #2</div>
+            <div class="col"> Columna #3</div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col">Columna #1</div>
+            <div class="col">Columna #2</div>
+            <div class="col"> Columna #3</div>
+        </div>
+
+        <div class="row align-items-end">
+            <div class="col">Columna #1</div>
+            <div class="col">Columna #2</div>
+            <div class="col"> Columna #3</div>
+        </div>
+        
+        <div class="row">
+            <div class="col align-self-start">Columna #1</div>
+            <div class="col align-self-center">Columna #2</div>
+            <div class="col align-self-end"> Columna #3</div>
+        </div>
     </div>
 
     <script src="js/jquery-3.4.1.min.js"></script>
