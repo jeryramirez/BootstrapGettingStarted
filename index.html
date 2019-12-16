@@ -6,11 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Getting Started with Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .row{
+            background: #e8e8e8;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .columna{
+            background: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #4d5130;  
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>Hola Mundo</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque atque quaerat inventore accusantium maxime voluptatum deleniti quo. Neque illum exercitationem dicta numquam minima aliquam commodi, nihil earum, hic in voluptate.</p>
+        <div class="row">
+            <div class="columna col-auto offset-1">Columna</div>
+        </div>
+        <div class="row">
+            <div class="columna col-4 offset-4">Columna</div>
+        </div>
+        <div class="row">
+            <div class="columna col-auto offset-1">Columna</div>
+            <div class="columna col-auto offset-4">Columna</div>
+        </div>
     </div>
 
     <script src="js/jquery-3.4.1.min.js"></script>
