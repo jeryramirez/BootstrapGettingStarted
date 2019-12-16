@@ -1,0 +1,36 @@
+body{
+    background: #EEEEEE;
+}
+header{
+    background: #4EFF33;
+    color: #fff;
+    padding: 5px;
+}
+
+section{
+    margin: 20px;
+    color: #fff;
+}
+
+main{
+    background: #fff;
+    padding: 20px;
+    color: #4B4B4B;
+}
+
+aside{
+    background: #C1C1C1;
+    padding: 60px;
+}
+
+.widgets > div{
+    background: #4A98FF;
+    padding: 40px;
+}
+
+footer{
+    background: #4B4B4B;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+}
